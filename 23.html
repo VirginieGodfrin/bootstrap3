@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Input</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div><a href="index.html">Index</a></div>
+
+		<h2>Input & type</h2>
+		<form>
+		    <div class="form-group">
+		      <label for="usr">Name:</label>
+		      <input type="text" class="form-control" id="usr">
+		    </div>
+		    <div class="form-group">
+		      <label for="pwd">Password:</label>
+		      <input type="password" class="form-control" id="pwd">
+		    </div>
+  		</form>
+  		<hr>
+
+  		<h2>Textarea</h2>
+  		<form>
+		    <div class="form-group">
+		      <label for="comment">Comment:</label>
+		      <textarea class="form-control" rows="5" id="comment"></textarea>
+		    </div>
+  		</form>
+  		<hr>
+
+  		<h2>Form control: checkbox</h2>
+		  <p>The form below contains three checkboxes. The last option is disabled:</p>
+		<form>
+		    <div class="checkbox">
+		      <label><input type="checkbox" value="">Option 1</label>
+		    </div>
+		    <div class="checkbox">
+		      <label><input type="checkbox" value="">Option 2</label>
+		    </div>
+		    <div class="checkbox disabled">
+		      <label><input type="checkbox" value="" disabled>Option 3</label>
+		    </div>
+		</form>
+		<hr>
+
+		<h2>Form control: inline checkbox</h2>
+		<form>
+		    <label class="checkbox-inline">
+		      <input type="checkbox" value="">Option 1
+		    </label>
+		    <label class="checkbox-inline">
+		      <input type="checkbox" value="">Option 2
+		    </label>
+		    <label class="checkbox-inline">
+		      <input type="checkbox" value="">Option 3
+		    </label>
+		</form>
+		<hr>
+
+		<h2>Form control: radio buttons</h2>
+		<p>The form below contains three radio buttons. The last option is disabled:</p>
+		<form>
+		    <div class="radio">
+		      <label><input type="radio" name="optradio">Option 1</label>
+		    </div>
+		    <div class="radio">
+		      <label><input type="radio" name="optradio">Option 2</label>
+		    </div>
+		    <div class="radio disabled">
+		      <label><input type="radio" name="optradio" disabled>Option 3</label>
+		    </div>
+		</form>
+		<hr>
+
+		<h2>Form control: inline radio buttons</h2>
+		<form>
+		    <label class="radio-inline">
+		      <input type="radio" name="optradio">Option 1
+		    </label>
+		    <label class="radio-inline">
+		      <input type="radio" name="optradio">Option 2
+		    </label>
+		    <label class="radio-inline">
+		      <input type="radio" name="optradio">Option 3
+		    </label>
+		</form>
+		<hr>
+
+		<h2>Form control: select</h2>
+		<form>
+		    <div class="form-group">
+		      <label for="sel1">Select list (select one):</label>
+		      <select class="form-control" id="sel1">
+		        <option>Pommes</option>
+		        <option>Poirres</option>
+		        <option>Abricots</option>
+		        <option>Prunnes</option>
+		      </select>
+		      <br>
+		      <label for="sel2">Mutiple select list (hold shift to select more than one):</label>
+		      <select multiple class="form-control" id="sel2">
+		        <option>Le monde</option>
+		        <option>le jardin</option>
+		        <option>La maison</option>
+		        <option>les livres</option>
+		        <option>le chemin</option>
+		      </select>
+		    </div>
+		</form>
+		<hr>
+		
+	</div>
+
+</body>
+</html>
